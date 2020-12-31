@@ -25,7 +25,7 @@
 .sidebarOption--active > h3 {
   background-color: #fcecec;
   color: #c04b37;
-  font-weight: 700 !important;
+  font-weight: 500 !important;
 }
 
 .sidebarOption > .MuiSvgIcon-root {
