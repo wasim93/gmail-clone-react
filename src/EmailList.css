@@ -1,6 +1,7 @@
 .emailList {
   flex: 1;
   overflow: scroll;
+  scrollbar-width: none;
 }
 
 .emailList__settings {
@@ -17,4 +18,12 @@
   position: sticky;
   top: 0;
   display: flex;
+}
+
+.emailList__list {
+  padding-bottom: 20%;
+}
+
+.emailList::-webkit-scrollbar {
+  display: none;
 }
